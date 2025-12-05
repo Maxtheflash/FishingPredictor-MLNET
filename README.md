@@ -78,3 +78,33 @@ FishingPredictor/
 ├── Program.cs                    # Main console app (training + prediction)
 ├── FishingLiteData.cs            # ML.NET input model class
 └── simple_data.csv               # Sample fishing dataset (training data)
+```
+## Getting Started
+Prerequisites
+.NET 6+ SDK
+Visual Studio 2022 or dotnet CLI
+ML.NET packages (added via NuGet in the project)
+
+Run the app
+Clone the repository and run:
+
+git clone https://github.com/Maxtheflash/FishingPredictor-MLNET.git
+cd FishingPredictor-MLNET
+dotnet run
+
+You should see console output for:
+Training / evaluation results
+Sample prediction(s) based on hard-coded input in Program.cs
+
+ ## Future Enhancements
+- Replace the small CSV with a larger real-world fishing log
+- Add more features (moon phase, pressure, water clarity, season)
+- Save and load the trained model to/from disk
+- Build a small API or UI on top of the model
+- Integrate with Catch Keeper as a “suggested pattern” engine
+
+## Author
+Branden Maxwell
+Software Developer (.NET | ML.NET | SQL)
+GitHub: @Maxtheflash
+
